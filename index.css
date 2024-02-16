@@ -17,6 +17,12 @@
     --h2-font : 2.2;
     --p-front:1rem;
 }
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
 .header{
     width: 100%;
     margin-right: 0;
@@ -24,26 +30,42 @@
 .main-header{
     display: flex;
     gap: 1.5rem;
+    margin-top: 30px;
 }
 .menu{
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
+    margin-left: 30px;
+
 }
 .menu li a:hover{
     color: brown;
-    font-size: 20px;
+    
 }
 
 .menu li a{
     display: flex;
+    font-size: 15px;
 }
 
 
 .icons{
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     font-size: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
 }
 .icons li:hover{
     color: brown;
+}
+.fa-solid.fa-list{
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+ 
+
+}
+.fa-solid.fa-list:hover{
+    color: brown; 
 }
