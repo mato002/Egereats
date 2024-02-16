@@ -1,0 +1,49 @@
+*{
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+:root{
+    --text-color: #000000;
+    --bg-color: #abb4c8;
+    --main-color: #0e5c80;
+    --big-font: 4.3 rem;
+    --h2-font : 2.2;
+    --p-front:1rem;
+}
+.header{
+    width: 100%;
+    margin-right: 0;
+}
+.main-header{
+    display: flex;
+    gap: 1.5rem;
+}
+.menu{
+    display: flex;
+    gap: 2rem;
+}
+.menu li a:hover{
+    color: brown;
+    font-size: 20px;
+}
+
+.menu li a{
+    display: flex;
+}
+
+
+.icons{
+    display: flex;
+    gap: 1rem;
+    font-size: 20px;
+}
+.icons li:hover{
+    color: brown;
+}
