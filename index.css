@@ -191,3 +191,115 @@ button {
     text-decoration: none;
     cursor: pointer;
 } */
+
+
+/* --------newsletter section ----- */
+
+.newsletter {
+    background-color: #e8d7d726;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .newsletter h2 {
+    margin-bottom: 10px;
+    color: black;
+    font-size: 11px;
+    width: 105px;
+  }
+  
+  #emailInput {
+    padding: 10px;
+    width: 150px;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+
+/* -----about section------ */
+.main-contact{
+    display: flex;
+    margin-left: 25px;
+    text-wrap: wrap;
+    justify-content: space-between;
+    gap: 2.5rem;
+    
+
+
+}
+.contact{
+    width: 100%;
+    height: 100%;
+    background: #d0ded2;
+
+
+}
+.contact-content li{
+    font-size: 12px;
+    margin-bottom: 1.1rem;
+    
+}
+.contact-content h5{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+
+}
+.contact-content li a{
+    display: block;
+    transition: all .59s ease;
+
+}
+.contact-content li a:hover{
+    transform: translatex(-1rem);
+    border-radius: 40px;
+
+}
+
+/* ------social media section---- */
+#egereats {
+    background-color: #f9f9f9;
+    padding: px;
+    width: 200px;
+   
+  }
+  
+
+  
+  #egereats p {
+    margin-bottom: 20px;
+    font-size: 12px;
+    margin-top: -2px;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 10px;
+  }
+  
+  .social-media a i {
+    width: 40px;
+    height: 40px;
+    size: 100px;
+  }
+  

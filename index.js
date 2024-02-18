@@ -80,3 +80,39 @@ document.querySelector(".close").addEventListener("click", function() {
 document.getElementById("mpesaBtn").addEventListener("click", payWithMpesa);
 document.getElementById("paypalBtn").addEventListener("click", payWithPayPal);
 */
+
+// Newsletter section
+document.addEventListener('DOMContentLoaded', function() {
+    const subscribeForm = document.getElementById('subscribeForm');
+    const emailInput = document.getElementById('emailInput');
+  
+    subscribeForm.addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent form submission
+  
+      const email = emailInput.value;
+  
+      // Regular expression for email validation
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  
+      if (emailPattern.test(email)) {
+        alert('Successfully subscribed!');
+      } else {
+        alert('Email format is invalid!');
+      }
+    });
+  });
+  
+
+// social media section 
+document.addEventListener('DOMContentLoaded', function() {
+    const socialMediaLinks = document.querySelectorAll('.social-media a');
+  
+    socialMediaLinks.forEach(function(link) {
+      link.addEventListener('click', function(event) {
+        event.preventDefault();
+        const url = this.href;
+        window.open(url, '_blank');
+      });
+    });
+  });
+  
