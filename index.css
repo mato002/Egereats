@@ -145,16 +145,17 @@ h1 {
 }
 
 
+
 /* Payment Method/
 
-/* Style the payment buttons */
+/* Style the payment buttons 
 button {
     padding: 10px 20px;
     margin: 10px;
     font-size: 16px;
 }
 
-/* Style the modal */
+/* Style the modal 
 .modal {
     display: none;
     position: fixed;
@@ -167,7 +168,7 @@ button {
     background-color: rgba(0,0,0,0.5);
 }
 
-/* Style the modal content */
+/* Style the modal content 
 .modal-content {
     background-color: #fefefe;
     margin: 20% auto;
@@ -176,7 +177,7 @@ button {
     width: 80%;
 }
 
-/* Style the close button */
+/* Style the close button 
 .close {
     color: #aaa;
     float: right;
@@ -189,4 +190,4 @@ button {
     color: black;
     text-decoration: none;
     cursor: pointer;
-}
+} */
