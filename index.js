@@ -1,88 +1,23 @@
-// This block prompts the user to either log in or sign up.
-// Note that this will be used with HTML forms.
-// and also a backend server
-
-// Simulated user database
-const userDatabase = {};
-
- // Function to handle login form submission
- document.getElementById("loginForm").addEventListener("submit", function(event) {
-    event.preventDefault();
-    const username = document.getElementById("loginUsername").value;
-    const password = document.getElementById("loginPassword").value;
-
-    if (userDatabase[username] === password) {
-      alert("Login successful. Welcome, " + username + "!");
-    } else {
-      alert("Invalid username or password. Please try again.");
-    }
-});
-
-// Function to handle signup form submission
-document.getElementById("signupForm").addEventListener("submit", function(event) {
-    event.preventDefault();
-    const username = document.getElementById("signupUsername").value;
-
-    if (username in userDatabase) {
-      alert("Username already exists. Please choose a different one.");
-    } else {
-      const password = document.getElementById("signupPassword").value;
-      userDatabase[username] = password;
-      alert("Account created successfully. You can now log in.");
-    }
+document.addEventListener('DOMContentLoaded', function() {
+    const userButton = document.getElementById('userButton');
+    const loginForm = document.getElementById('loginForm');
+    const signupForm = document.getElementById('signupForm');
+  
+    userButton.addEventListener('click', function() {
+      if (loginForm.style.display === 'none' && signupForm.style.display === 'none') {
+        // Both forms are hidden, show the login form
+        loginForm.style.display = 'block';
+      } else if (loginForm.style.display === 'block') {
+        // Login form is visible, hide it and show the signup form
+        loginForm.style.display = 'none';
+        signupForm.style.display = 'block';
+      } else {
+        // Signup form is visible, hide it
+        signupForm.style.display = 'none';
+      }
+    });
   });
-
-// Function to prompt user for login
-function login() {
-    const username = prompt("Enter your username:");
-    const password = prompt("Enter your password:");
-
-    if (userDatabase[username] === password) {
-        alert("Login successful. Welcome, " + username + "!");
-    } else {
-        alert("Invalid username or password. Please try again.");
-    }
-}
-
-// Function to prompt user for signup
-function signup() {
-    const username = prompt("Enter a new username:");
-
-    if (username in userDatabase) {
-        alert("Username already exists. Please choose a different one.");
-    } else {
-        const password = prompt("Enter a password:");
-        userDatabase[username] = password;
-        alert("Account created successfully. You can now log in.");
-    }
-}
-
-// Main function to prompt user to login or signup
-function main() {
-    while (true) {
-        const choice = prompt(
-            "Welcome to the EGEREATS!\n1. Log in\n2. Sign up\n3. Exit"
-        );
-
-        switch (choice) {
-            case "1":
-                login();
-                break;
-            case "2":
-                signup();
-                break;
-            case "3":
-                alert("Exiting EGEREATS. Goodbye!");
-                return;
-            default:
-                alert("Invalid choice. Please choose a valid option.");
-        }
-    }
-}
-
-//This program uses `prompt()` to interact with the user for input. It offers options to log in, sign up, or exit. 
-//The login function checks if the entered username and password match the stored data. 
-//The signup function prompts the user for a new username, checks if it's available, then prompts for a password and adds the new user to the database.
+  
 
 // Function to create a food item
 function createFoodItem(name, image, price, rating) {
@@ -181,7 +116,13 @@ document.addEventListener('DOMContentLoaded', function() {
       const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   
       if (emailPattern.test(email)) {
-        alert('Successfully subscribed!');
+        // Simulate subscription success (replace this with your actual subscription logic)
+        setTimeout(function() {
+          alert('Successfully subscribed!');
+          emailInput.value = ''; // Clear the email input
+          emailInput.style.display = 'none'; // Hide the email input
+          subscribeForm.querySelector('button[type="submit"]').disabled = true; // Disable the submit button
+        }, 1000);
       } else {
         alert('Email format is invalid!');
       }
