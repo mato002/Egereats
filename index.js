@@ -85,6 +85,7 @@ function main() {
 //The signup function prompts the user for a new username, checks if it's available, then prompts for a password and adds the new user to the database.
 
 
+
 // Function to create a food item
 function createFoodItem(name, image, price, rating) {
     const foodItem = document.createElement('div');
