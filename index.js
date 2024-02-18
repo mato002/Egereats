@@ -41,3 +41,40 @@ window.onload = function() {
     //     .then(data => renderFoodItems(data))
     //     .catch(error => console.error('Error fetching data:', error));
 };
+
+
+
+// Payment Methods
+
+// Function to handle M-Pesa payment
+function payWithMpesa() {
+    // Implement M-Pesa payment logic here
+    // This could involve making API requests to initiate the payment process
+    // Upon successful payment, display a success message
+    displayPaymentStatus("M-Pesa payment successful!");
+}
+
+// Function to handle PayPal payment
+function payWithPayPal() {
+    // Implement PayPal payment logic here
+    // This could involve redirecting users to PayPal's payment page
+    // Upon successful payment confirmation, display a success message
+    displayPaymentStatus("PayPal payment successful!");
+}
+
+// Function to display payment status
+function displayPaymentStatus(message) {
+    const modal = document.getElementById("paymentModal");
+    const statusElement = document.getElementById("paymentStatus");
+    statusElement.innerText = message;
+    modal.style.display = "block";
+}
+
+// Close the payment modal
+document.querySelector(".close").addEventListener("click", function() {
+    document.getElementById("paymentModal").style.display = "none";
+});
+
+// Event listeners for payment buttons
+document.getElementById("mpesaBtn").addEventListener("click", payWithMpesa);
+document.getElementById("paypalBtn").addEventListener("click", payWithPayPal);
