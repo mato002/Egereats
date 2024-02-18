@@ -44,6 +44,7 @@ window.onload = function() {
 
 
 
+/*
 // Payment Methods
 
 // Function to handle M-Pesa payment
@@ -78,3 +79,4 @@ document.querySelector(".close").addEventListener("click", function() {
 // Event listeners for payment buttons
 document.getElementById("mpesaBtn").addEventListener("click", payWithMpesa);
 document.getElementById("paypalBtn").addEventListener("click", payWithPayPal);
+*/
