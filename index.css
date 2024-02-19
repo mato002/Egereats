@@ -392,4 +392,56 @@ button {
     height: 40px;
     size: 100px;
   }
+
+  /* --------explore section------ */
+  .content{
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 120px;
+
+    
+  }
+  .content-left{
+    display: block;
+    width: 100%;
+    background: none;
+
+  }
+
+  .info{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    
+
+  }
+  .info h3{
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-family: sans-serif;
+    color: rgba(142, 28, 28, 0.893);
+    
+    ;
   
+  }
+  .info p{
+    font-size:23px ;
+    line-height: 2pc;
+    margin-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+  
+  .explore{
+    padding: 10px 23px;
+    background-color: #ff511c;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 100px;
+  }
