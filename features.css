@@ -1,0 +1,40 @@
+.paymentOptionsContainer{
+    background-color: #82f084;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    height:25vh;
+
+}
+.paymentOption{
+    background-color: #fff; 
+    margin:10px;
+    width:40%;
+    height:80%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6%;
+
+
+  }
+.paymentOption:hover{
+    background-color: rgba(46, 54, 51, 0.151);
+    transition: all .65s ease;
+    color: rgb(170, 93, 93);
+}
+  .fa-brands.fa-paypal{
+    font-size: 450%;
+  }
+  .fa-brands.fa-cc-visa{
+   font-size: 450%;
+
+  }
+  .fa-solid.fa-mobile{
+    font-size: 450%;
+  }
+a {
+    text-decoration: none;
+    color:inherit;
+}
