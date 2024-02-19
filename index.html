@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Egereats Shopping  Website</title>
     <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/9e357f2cb3.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+ 
+
     <!-- ---header section  -->
     <section class="header">
         <div class="main">
@@ -27,7 +30,7 @@
                     <li><i class="fa-regular fa-bell"></i></li>
                     <li><i class="fa-brands fa-searchengin"></i></li>
                     <li><i class="fa-solid fa-cart-shopping"></i></li>
-                    <li><i class="fa-regular fa-user"></i></li>
+                    <li><i  id="userButton"   class="fa-regular fa-user"></i></li>
                 </div>
                 <a href="#"><i class="fa-solid fa-list"></i></a>
             </div>
@@ -35,9 +38,36 @@
         </div>
     </section>
 
+  <!-- trial  -->
+
+  <div id="loginForm" class="dropdown-content">
+    <!-- Login form -->
+    <h2>Login</h2>
+    <form id="loginForm">
+      <label for="loginUsername">Username:</label><br>
+      <input type="text" id="loginUsername" name="loginUsername"><br>
+      <label for="loginPassword">Password:</label><br>
+      <input type="password" id="loginPassword" name="loginPassword"><br><br>
+      <input type="submit" value="Login">
+    </form>
+  </div>
+  
+  <div id="signupForm" class="dropdown-content">
+    <!-- Signup form -->
+    <h2>Sign Up</h2>
+    <form id="signupForm">
+      <label for="signupUsername">Username:</label><br>
+      <input type="text" id="signupUsername" name="signupUsername"><br>
+      <label for="signupPassword">Password:</label><br>
+      <input type="password" id="signupPassword" name="signupPassword"><br><br>
+      <input type="submit" value="Sign Up">
+    </form>
+  </div>
+  
+
     <!-------food  ordering section ------ -->
     <div class="container">
-        <h1>products Available</h1>
+        <h1>Our Products</h1>
         <p>place your order now and  enjoy at  convenient prices</p>
         <div class="food-list" id="foodList">
            
@@ -82,10 +112,7 @@
            
         </div>
     </div>
-    <!-- ------contact -->
-    <div class="contact">
-        
-    </div>
+
    
 
 
