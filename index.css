@@ -326,7 +326,7 @@ button {
 
 }
 .contact {
-    background-color: rgba(255, 255, 255, 0); /* Transparent background */
+    background-color: lightcyan; /* Transparent background */
     border: 1px solid #ccc; /* Light grey border */
     border-radius: 10px; /* Border radius */
     padding: 20px;
