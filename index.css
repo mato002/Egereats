@@ -91,6 +91,8 @@ body {
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style: none;
+    
+    
 
 
 }
@@ -101,6 +103,7 @@ body {
     --big-font: 4.3 rem;
     --h2-font : 2.2;
     --p-front:1rem;
+    
 }
 
 /* -----------header section ------------- */
@@ -330,6 +333,16 @@ button {
     border: 1px solid #ccc; /* Light grey border */
     border-radius: 10px; /* Border radius */
     padding: 20px;
+    margin: 0;
+    padding: 0;
+    
+     /* Light blue color */
+    box-shadow: 0 0 10setting0px rgba(0, 0, 0, 0.5); /* Shadow effect */
+
+    
+
+    
+    
   }
   
   .contact h5 {
@@ -341,17 +354,28 @@ button {
     font-size: 12px;
     margin-bottom: 1.1rem;
     
+    
+    
+    
 }
 .contact-content h5{
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 20px;
+  
+
+    
+    
 
 
 }
 .contact-content li a{
     display: block;
     transition: all .59s ease;
+    
+
+    
+    
 
 }
 .contact-content li a:hover{
@@ -402,6 +426,7 @@ button {
     justify-content: space-between;
     width: 100%;
     margin-top: 120px;
+    
 
     
   }
@@ -430,9 +455,13 @@ button {
   }
   .info p{
     font-size:23px ;
+    text-align: center;
     line-height: 2pc;
     margin-bottom: 30px;
+    border-radius: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to right top, #ff0000 20%, #00ff00 80%);
+
 
   }
   
@@ -445,3 +474,26 @@ button {
     border-radius: 20px;
     margin-left: 100px;
   }
+
+.content-right{
+  display: block;
+  width: 100%;
+}
+.content-right img{
+  width: 400px;
+  height: 400px;
+  position: relative;
+  user-select: none;
+  animation: rotate 10s linear infinite;
+  border-radius: 50% ;
+}
+  
+@keyframes rotate{
+  0%{
+    transform: 0deg;
+
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
