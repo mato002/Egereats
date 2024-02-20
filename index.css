@@ -423,7 +423,7 @@ button {
  
 =======
   /* --------explore section------ */
-  .content{
+.content{
     display: grid;
     grid-template-columns: 50% auto;
     gap: 30px;
@@ -431,10 +431,9 @@ button {
     justify-content: space-between;
     width: 100%;
     margin-top: 120px;
-    
+}
 
-    
-  }
+
   .content-left{
     display: block;
     width: 100%;
@@ -470,7 +469,7 @@ button {
 
   }
   
-  .explore{
+.explore{
     padding: 10px 23px;
     background-color: #ff511c;
     color: #ffffff;
@@ -478,7 +477,7 @@ button {
     cursor: pointer;
     border-radius: 20px;
     margin-left: 100px;
-  }
+}
 <<<<<<< HEAD
 
 .content-right{
