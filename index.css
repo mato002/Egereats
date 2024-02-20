@@ -91,6 +91,8 @@ body {
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style: none;
+    
+    
 
 
 }
@@ -101,6 +103,7 @@ body {
     --big-font: 4.3 rem;
     --h2-font : 2.2;
     --p-front:1rem;
+    
 }
 
 /* -----------header section ------------- */
@@ -330,6 +333,16 @@ button {
     border: 1px solid #ccc; /* Light grey border */
     border-radius: 10px; /* Border radius */
     padding: 20px;
+    margin: 0;
+    padding: 0;
+    
+     /* Light blue color */
+    box-shadow: 0 0 10setting0px rgba(0, 0, 0, 0.5); /* Shadow effect */
+
+    
+
+    
+    
   }
   
   .contact h5 {
@@ -341,17 +354,28 @@ button {
     font-size: 12px;
     margin-bottom: 1.1rem;
     
+    
+    
+    
 }
 .contact-content h5{
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 20px;
+  
+
+    
+    
 
 
 }
 .contact-content li a{
     display: block;
     transition: all .59s ease;
+    
+
+    
+    
 
 }
 .contact-content li a:hover{
@@ -392,4 +416,92 @@ button {
     height: 40px;
     size: 100px;
   }
+
+<<<<<<< HEAD
+  /* ============features page================================ */
   
+ 
+=======
+  /* --------explore section------ */
+.content{
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 120px;
+}
+
+
+  .content-left{
+    display: block;
+    width: 100%;
+    background: none;
+
+  }
+
+  .info{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    
+
+  }
+  .info h3{
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-family: sans-serif;
+    color: rgba(142, 28, 28, 0.893);
+    
+    ;
+  
+  }
+  .info p{
+    font-size:23px ;
+    text-align: center;
+    line-height: 2pc;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to right top, #ff0000 20%, #00ff00 80%);
+
+
+  }
+  
+.explore{
+    padding: 10px 23px;
+    background-color: #ff511c;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+<<<<<<< HEAD
+
+.content-right{
+  display: block;
+  width: 100%;
+}
+.content-right img{
+  width: 400px;
+  height: 400px;
+  position: relative;
+  user-select: none;
+  animation: rotate 10s linear infinite;
+  border-radius: 50% ;
+}
+  
+@keyframes rotate{
+  0%{
+    transform: 0deg;
+
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+=======
+>>>>>>> 19fb65aa28740b58e131ad26572d26c66f204df8
+>>>>>>> 2566e9f91196f2322536e07b92581b07452792da
