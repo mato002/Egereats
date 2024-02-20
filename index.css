@@ -1,77 +1,72 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
-
-.container {
-  max-width: 400px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-
-h1 {
-  text-align: center;
-  margin-top: 50px;
-}
-
-h2 {
-  text-align: center;
-  margin-top: 50px;
-}
-
-form {
-  margin-top: 20px;
-}
-
-label {
-  font-weight: bold;
-}
-
-input[type="text"],
-input[type="password"],
-input[type="submit"] {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-
-input[type="submit"] {
-  background-color: #4caf50;
-  color: #fff;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #45a049;
-}
-
-.forgot-password {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.alert-success {
-  background-color: #dff0d8;
-  border: 1px solid #d6e9c6;
-  color: #3c763d;
-}
-
-.alert-danger {
-  background-color: #f2dede;
-  border: 1px solid #ebccd1;
-  color: #a94442;
-}  
-
-
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #loginForm, #signupForm {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .alert {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .alert-success {
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+  }
+  
+  .alert-danger {
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    color: #a94442;
+  }  
 /* ----drop down ---- */
 /* Position the dropdown content relative to the user button */
 .dropdown-content {
@@ -422,15 +417,11 @@ button {
     size: 100px;
   }
 
-<<<<<<< HEAD
-
   /* --------explore section------ */
-=======
->>>>>>> aa53e73dbc484131af31c4124696dbc9ccc280f4
 .content{
     display: grid;
     grid-template-columns: 50% auto;
-    gap: 5%;
+    gap: 30px;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -439,9 +430,7 @@ button {
 
 
   .content-left{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: block;
     width: 100%;
     background: none;
 
@@ -477,7 +466,6 @@ button {
   
 .explore{
     padding: 10px 23px;
-    width:25%;
     background-color: #ff511c;
     color: #ffffff;
     border: none;
@@ -511,47 +499,45 @@ button {
 }
 
 
-<<<<<<< HEAD
-=======
+/* -----payment.html section */
 
->>>>>>> aa53e73dbc484131af31c4124696dbc9ccc280f4
-.paymentOptionsContainer{
-  background-color: #82f084;
-  display:flex;
-  justify-content: flex-end;
-  align-items: center;
-  height:25vh;
+/* index.css */
 
-}
-.paymentOption{
-  background-color: #fff; 
-  margin:10px;
-  width:40%;
-  height:80%;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
+.boy {
+  margin: 0;
+  padding: 0;
+  display: flex;
   justify-content: center;
-  border-radius: 6%;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5; /* Similar to PayPal.com background color */
+}
 
+.featuresContainer {
+  text-align: center;
+}
 
+.paymentOptionsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjust the gap between payment options */
 }
-.paymentOption:hover{
-  background-color: rgba(46, 54, 51, 0.151);
-  transition: all .65s ease;
-  color: rgb(170, 93, 93);
-}
-.fa-brands.fa-paypal{
-  font-size: 450%;
-}
-.fa-brands.fa-cc-visa{
- font-size: 450%;
 
+.paymentOption {
+  width: 100px; /* Adjust the width of each payment option */
 }
-.fa-solid.fa-mobile{
-  font-size: 450%;
-}
-a {
+
+.paymentOption a {
   text-decoration: none;
-  color:inherit;
+  color: inherit;
 }
+
+.paymentOption p {
+  margin: 0;
+}
+
+
+
+/* -------search bar----------- */
+

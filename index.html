@@ -21,14 +21,14 @@
                 <div class="menu">
                     
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="features.html">Features</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="payment.html">Features</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">settings</a></li>
                 </div>
                 <div class="icons">
                     <li><i class="fa-regular fa-bell"></i></li>
-                    <li><i class="fa-brands fa-searchengin"></i></li>
+                    <li class="search-icon"><i class="fa-brands fa-searchengin"></i></li>
                     <li><i class="fa-solid fa-cart-shopping"></i></li>
                     <li><i  id="userButton"   class="fa-regular fa-user"></i></li>
                     
@@ -47,7 +47,7 @@
                     <h3>Order your Best <br>Food anytime</h3>
                     <p>Hey there, feeling hungry? Don't hesitate! Dive into our delicious dishes and satisfy your cravings today!</p>
                 </div>
-                <button  class="explore">Explore Food</button>
+                <button href="product.html" class="explore">Explore Food</button>
 
             </div>
             <div class="content-right">
@@ -59,102 +59,112 @@
 
   <!-- trial  -->
 
-  <div id="loginForm" class="dropdown-content">
+  <section>
+    <div id="loginForm" class="dropdown-content">
 
-   <!-- ---login section  -->
-  <div class="container">
-<h1>Welcome to EGEREATS!</h1>
-    <h2>Login</h2>
-    <form id="loginForm">
-      <label for="loginUsername">Username:</label><br>
-      <input type="text" id="loginUsername" name="loginUsername"><br>
-      <label for="loginPassword">Password:</label><br>
-      <input type="password" id="loginPassword" name="loginPassword"><br><br>
-      <input type="submit" value="LogContact
-      in">
-    </form>
+      <!-- ---login section  -->
+     <div class="container">
 
-    <div class="forgot-password">
-      <a href="#">Forgot Password?</a>
-    </div>
+      <h1>Welcome to EGEREATS!</h1>
 
+      <h2>Login</h2>
 
-<!-- ---sign up section  -->
-    <h2>Sign Up</h2>
-    <form id="signupForm">
-      <label for="signupUsername">Username:</label><br>
-      <input type="text" id="signupUsername" name="signupUsername"><br>
-      <label for="signupPassword">Password:</label><br>
-      <input type="password" id="signupPassword" name="signupPassword"><br><br>
-      <input type="submit" value="Sign Up">
-    </form>
-  </div>
- 
-
-
-  <div id="forgotPasswordModal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <h2>Forgot Password</h2>
-      <p>Enter your email address to reset your password:</p>
-      <form id="forgotPasswordForm">
-        <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email"><br><br>
-        <input type="submit" value="Reset Password">
-      </form>
-    </div>
-  </div>
+      <form id="loginForm">
+        <label for="loginUsername">Username:</label><br>
+         <input type="text" id="loginUsername" name="loginUsername"><br>
+         <label for="loginPassword">Password:</label><br>
+         <input type="password" id="loginPassword" name="loginPassword"><br><br>
+         <input type="submit" value="Login">
+       </form>
+       <div class="forgot-password">
+         <a href="#">Forgot Password?</a>
+       </div>
+   
+   
+   <!-- ---sign up section  -->
+       <h2>Sign Up</h2>
+       <form id="signupForm">
+         <label for="signupUsername">Username:</label><br>
+         <input type="text" id="signupUsername" name="signupUsername"><br>
+         <label for="signupPassword">Password:</label><br>
+         <input type="password" id="signupPassword" name="signupPassword"><br><br>
+         <input type="submit" value="Sign Up">
+       </form>
+     </div>
+    
+   
+   
+     <div id="forgotPasswordModal" class="modal">
+       <div class="modal-content">
+         <span class="close">&times;</span>
+         <h2>Forgot Password</h2>
+         <p>Enter your email address to reset your password:</p>
+         <form id="forgotPasswordForm">
+           <label for="email">Email:</label><br>
+           <input type="text" id="email" name="email"><br><br>
+           <input type="submit" value="Reset Password">
+         </form>
+       </div>
+     </div>
+  </section>
   
 
-    <!-------food  ordering section ------ -->
-    <div class="container">
-        <h1>Our Products</h1>
-        <p>place your order now and  enjoy at  convenient prices</p>
-        <div class="food-list" id="foodList">
-           
-            <div class="food-item">
-                <img src="/imag/pexels-brett-jordan-825661.jpg" alt="Placeholder">
-                <div class="food-details">
-                    <h2>Pizza</h2>
-                    <div class="price">$10</div>
-                    <div class="rating">Rating: 4.5</div>
-                    <button class="add-to-cart">Add to Cart</button>
-                </div>
-            </div>
 
-            <div class="food-item">
-                <img src="/imag/pexels-trista-chen-723198.jpg" alt="Placeholder">
-                <div class="food-details">
-                    <h2>Rice</h2>
-                    <div class="price">$5</div>
-                    <div class="rating">Rating: 4.0</div>
-                    <button class="add-to-cart">Add to Cart</button>
-                </div>
-            </div>
+   
 
-            <div class="food-item">
-                <img src="/imag/pexels-ella-olsson-3026801.jpg" alt="Placeholder">
-                <div class="food-details">
-                    <h2>Yoghurt </h2>
-                    <div class="price">$3</div>
-                    <div class="rating">Rating: 4.2</div>
-                    <button class="add-to-cart">Add to Cart</button>
-                </div>
+
+
+     <!-- -----about section----- -->
+    <section class="contact">
+      <div class="main-contact">
+          <div class="contact-content">
+              <h5>Egereats</h5>
+              <nav id="egereats">
+                  <p>Satisfy your cravings with our fast and delicious food delivery service—bringing the flavors you love right to your doorstep!</p>
+                  <div class="social-media">
+                    <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i> </a>
+                    <a href="#" target="_blank">    <i class="fa-brands fa-square-instagram"></i> </a>
+                  </div>
+              </nav>
+                
+
             </div>
-            <div class="food-item">
-                <img src="/imag/pexels-chevanon-photography-302899.jpg" alt="Placeholder">
-                <div class="food-details">
-                    <h2>Coffee </h2>
-                    <div class="price">$3</div>
-                    <div class="rating">Rating: 4.2</div>
-                    <button class="add-to-cart">Add to Cart</button>
-                </div>
+            <div class="contact-content">
+                <h5>Contact Info</h5>
+                <li><a href="#"> >Email:</a></li>
+                <li><a href="#"> >call:</a></li>
+                <li><a href="#"> >Twitter:</a></li>
+                <li><a href="#"> >facebook:</a></li>
+                <li><a href="#"> >Instagram:</a></li>
+            </div>
+            <div class="contact-content">
+                <h5>Quick Links </h5>
+                <li><a href="#"> Home</a></li>
+                <li><a href="#"> Features</a></li>
+                <li><a href="#"> Contact</a></li>
+                <li><a href="#"> Security</a></li>
+                <li><a href="#"> Settings</a></li>
+            </div>
+            <div class="contact-content">
+                <h5>NewsLetter </h5>
+                <section class="newsletter">
+                    <h2>Subscribe to Our Website for Latest Updates</h2>
+                    <form id="subscribeForm">
+                      <input type="email" id="emailInput" placeholder="Enter your email" required>
+                      <button type="submit">Subscribe</button>
+                    </form>
+                  </section>               
             </div>
            
         </div>
-    </div>
+    </section>
+    <div class="featuresContainer">
 
-            <!--================================= options to select payment methods and redirect to them=========================== -->
+<<<<<<< HEAD
+
+=======
+        <!--================================= options to select payment methods and redirect to them=========================== -->
         
               <h3>Pay with:</h3>
         
@@ -196,54 +206,7 @@
             </div>
         
         <!--========================= end of payment options============================== -->
-    <!-- -----about section----- -->
-
-    <section class="contact">
-        <div class="main-contact">
-            <div class="contact-content">
-                <h5>Egereats</h5>
-                <nav id="egereats">
-                    <p>Satisfy your cravings with our fast and delicious food delivery service—bringing the flavors you love right to your doorstep!</p>
-                    <div class="social-media">
-                      <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                      <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i> </a>
-                      <a href="#" target="_blank">    <i class="fa-brands fa-square-instagram"></i> </a>
-                    </div>
-                </nav>
-                  
-
-            </div>
-            <div class="contact-content">
-                <h5>Contact Info</h5>
-                <li><a href="#"> >Email:</a></li>
-                <li><a href="#"> >call:</a></li>
-                <li><a href="#"> >Twitter:</a></li>
-                <li><a href="#"> >facebook:</a></li>
-                <li><a href="#"> >Instagram:</a></li>
-            </div>
-            <div class="contact-content">
-                <h5>Quick Links </h5>
-                <li><a href="#"> Home</a></li>
-                <li><a href="#"> Features</a></li>
-                <li><a href="#"> Contact</a></li>
-                <li><a href="#"> Security</a></li>
-                <li><a href="#"> Settings</a></li>
-            </div>
-            <div class="contact-content">
-                <h5>NewsLetter </h5>
-                <section class="newsletter">
-                    <h2>Subscribe to Our Website for Latest Updates</h2>
-                    <form id="subscribeForm">
-                      <input type="email" id="emailInput" placeholder="Enter your email" required>
-                      <button type="submit">Subscribe</button>
-                    </form>
-                  </section>               
-            </div>
-           
-        </div>
-    </section>
-    <div class="featuresContainer">
-
+>>>>>>> aa53e73dbc484131af31c4124696dbc9ccc280f4
         
 
 
@@ -252,12 +215,6 @@
 
 
 
-    
-
-
-
-
-    
 
 
 
