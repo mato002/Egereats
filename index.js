@@ -208,3 +208,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // -------search bar  
   
+
+
+
+  // JavaScript code to handle notification functionality
+
+// Function to toggle the visibility of the notifications dropdown
+function toggleNotifications() {
+    const notificationDropdown = document.getElementById('notificationDropdown');
+    notificationDropdown.style.display === 'block' ? notificationDropdown.style.display = 'none' : notificationDropdown.style.display = 'block';
+}
+
+// Event listener for the notification button
+const notificationButton = document.getElementById('notificationButton');
+notificationButton.addEventListener('click', toggleNotifications);

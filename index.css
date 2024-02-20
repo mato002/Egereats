@@ -539,5 +539,36 @@ button {
 
 
 
-/* -------search bar----------- */
+/* -------notification----------- */
+/* Styles for the notification container */
+.notification-container {
+  position: relative;
+}
+
+/* Styles for the notification dropdown */
+.notification-dropdown {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the notification list */
+.notification-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Styles for the notification items */
+.notification-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
 
