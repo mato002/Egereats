@@ -1,57 +1,82 @@
+//This program offers options to log in, sign up, or forgotten password. 
+//The login function checks if the entered username and password match the stored data. 
+//The signup function prompts the user for a new username, checks if it's available, then prompts for a password and adds the new user to the database.
+
 document.addEventListener('DOMContentLoaded', function() {
-    const userButton = document.getElementById('userButton');
-    const loginForm = document.getElementById('loginForm');
-    const signupForm = document.getElementById('signupForm');
-    const loginUsernameInput = document.getElementById('loginUsername');
-    const loginPasswordInput = document.getElementById('loginPassword');
-    const signupUsernameInput = document.getElementById('signupUsername');
-    const signupPasswordInput = document.getElementById('signupPassword');
-  
-    let displayState = 0; // 0 for no form, 1 for login form, 2 for signup form
-  
-    userButton.addEventListener('click', function() {
+  const userButton = document.getElementById('userButton');
+  const loginForm = document.getElementById('loginForm');
+  const signupForm = document.getElementById('signupForm');
+  const loginUsernameInput = document.getElementById('loginUsername');
+  const loginPasswordInput = document.getElementById('loginPassword');
+  const signupUsernameInput = document.getElementById('signupUsername');
+  const signupPasswordInput = document.getElementById('signupPassword');
+  const forgotPasswordModal = document.getElementById('forgotPasswordModal');
+  const forgotPasswordLink = document.getElementById('forgotPasswordLink');
+  const emailInput = document.getElementById('email');
+
+  let displayState = 0; // 0 for no form, 1 for login form, 2 for signup form
+
+  userButton.addEventListener('click', function() {
       if (displayState === 0) {
-        // No form is displayed, show the login form
-        loginForm.style.display = 'block';
-        signupForm.style.display = 'none';
-        displayState = 1;
+          // No form is displayed, show the login form
+          loginForm.style.display = 'block';
+          signupForm.style.display = 'none';
+          displayState = 1;
       } else if (displayState === 1) {
-        // Login form is displayed, show the signup form
-        loginForm.style.display = 'none';
-        signupForm.style.display = 'block';
-        displayState = 2;
+          // Login form is displayed, show the signup form
+          loginForm.style.display = 'none';
+          signupForm.style.display = 'block';
+          displayState = 2;
       } else {
-        // Signup form is displayed, hide both forms
-        loginForm.style.display = 'none';
-        signupForm.style.display = 'none';
-        displayState = 0;
+          // Signup form is displayed, hide both forms
+          loginForm.style.display = 'none';
+          signupForm.style.display = 'none';
+          displayState = 0;
       }
-    });
-  
-    // Function to check if the username already exists
-    function checkUsernameExists(username) {
+  });
+
+  // Function to check if the username already exists
+  function checkUsernameExists(username) {
       // Replace this with your actual check for existing usernames
       // For example, you might make an AJAX request to the server
       const existingUsernames = ['user1', 'user2', 'user3']; // Dummy data
       return existingUsernames.includes(username);
-    }
-  
-    // Function to handle form submission
-    signupForm.addEventListener('submit', function(event) {
+  }
+
+  // Function to handle form submission
+  signupForm.addEventListener('submit', function(event) {
       event.preventDefault(); // Prevent the form from submitting
-  
+
       const username = signupUsernameInput.value;
       const password = signupPasswordInput.value;
-  
+
       if (checkUsernameExists(username)) {
-        alert('Account already exists!');
+          alert('Account already exists!');
       } else {
-        alert('Account created successfully!');
-        // Here you can add code to submit the form data to the server
+          alert('Account created successfully!');
+          // Here you can add code to submit the form data to the server
       }
-    });
   });
-  
+
+  // Function to handle forgotten password link click
+  forgotPasswordLink.addEventListener('click', function() {
+      forgotPasswordModal.style.display = 'block';
+  });
+
+  // Function to handle forgotten password form submission
+  forgotPasswordModal.addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent the form from submitting
+
+      const email = emailInput.value;
+
+      // Simulated reset password functionality (you may implement actual logic here)
+      alert('Password reset instructions sent to ' + email);
+
+      // Close the modal
+      forgotPasswordModal.style.display = 'none';
+  });
+});
+
 
 // Function to create a food item
 function createFoodItem(name, image, price, rating) {
@@ -176,4 +201,6 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   });
+
+  
   
