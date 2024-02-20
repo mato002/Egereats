@@ -422,11 +422,8 @@ button {
     size: 100px;
   }
 
-<<<<<<< HEAD
 
   /* --------explore section------ */
-=======
->>>>>>> aa53e73dbc484131af31c4124696dbc9ccc280f4
 .content{
     display: grid;
     grid-template-columns: 50% auto;
@@ -511,10 +508,7 @@ button {
 }
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> aa53e73dbc484131af31c4124696dbc9ccc280f4
 .paymentOptionsContainer{
   background-color: #82f084;
   display:flex;
