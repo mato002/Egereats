@@ -1,9 +1,63 @@
-.paymentOptionsContainer{
-    background-color: #82f084;
+*{
+  text-decoration: none;
+
+}
+.featuresContainer.menu{
+  background-color: rgb(248, 241, 212);
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+  height: 10vh;
+
+}
+.paymentOptionsMenuItem{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  
+}
+.paymentOptionsMenuItem:hover {
+  transition: all .65s ease;
+
+
+  background-color: white;
+  border-right:0.5px Solid black;
+  border-bottom: 0.2px Solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 8, 0.603); /* Box shadow with a slight blur */
+
+}
+
+
+.orderMenuItem{
+  
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  
+}
+.orderMenuItem:hover{
+  transition: all .65s ease;
+
+  background-color: white;
+  border-left:0.5px Solid black;
+  border-bottom:0.2px Solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 8, 0.603); /* Box shadow with a slight blur */
+
+}
+
+
+/* ====================================payment options section=============================== */
+#paymentOptionsContainer{
+    background-color: #bff5c0;
     display:flex;
     justify-content: flex-end;
     align-items: center;
     height:25vh;
+    margin-top:11%;
 
 }
 .paymentOption{
@@ -34,7 +88,9 @@
   .fa-solid.fa-mobile{
     font-size: 450%;
   }
-a {
-    text-decoration: none;
-    color:inherit;
-}
+  
+/* ==========================orders section======================================== */
+
+ #ordersContainer {
+    margin-top: 5%;
+ }
