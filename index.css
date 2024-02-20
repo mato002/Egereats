@@ -417,11 +417,7 @@ button {
     size: 100px;
   }
 
-<<<<<<< HEAD
-  /* ============features page================================ */
-  
 
-=======
   /* --------explore section------ */
 .content{
     display: grid;
@@ -478,7 +474,7 @@ button {
     border-radius: 20px;
     margin-left: 100px;
 }
-<<<<<<< HEAD
+
 
 .content-right{
   display: block;
@@ -502,6 +498,45 @@ button {
     transform: rotate(360deg);
   }
 }
-=======
->>>>>>> 19fb65aa28740b58e131ad26572d26c66f204df8
->>>>>>> 2566e9f91196f2322536e07b92581b07452792da
+
+
+.paymentOptionsContainer{
+  background-color: #82f084;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  height:25vh;
+
+}
+.paymentOption{
+  background-color: #fff; 
+  margin:10px;
+  width:40%;
+  height:80%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6%;
+
+
+}
+.paymentOption:hover{
+  background-color: rgba(46, 54, 51, 0.151);
+  transition: all .65s ease;
+  color: rgb(170, 93, 93);
+}
+.fa-brands.fa-paypal{
+  font-size: 450%;
+}
+.fa-brands.fa-cc-visa{
+ font-size: 450%;
+
+}
+.fa-solid.fa-mobile{
+  font-size: 450%;
+}
+a {
+  text-decoration: none;
+  color:inherit;
+}
