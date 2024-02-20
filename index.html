@@ -59,104 +59,107 @@
 
   <!-- trial  -->
 
-  <div id="loginForm" class="dropdown-content">
+  <section>
+    <div id="loginForm" class="dropdown-content">
 
-   <!-- ---login section  -->
-  <div class="container">
-<h1>Welcome to EGEREATS!</h1>
-    <h2>Login</h2>
-    <form id="loginForm">
-      <label for="loginUsername">Username:</label><br>
-      <input type="text" id="loginUsername" name="loginUsername"><br>
-      <label for="loginPassword">Password:</label><br>
-      <input type="password" id="loginPassword" name="loginPassword"><br><br>
-      <input type="submit" value="LogContact
-      in">
-    </form>
+      <!-- ---login section  -->
+     <div class="container">
 
-    <div class="forgot-password">
-      <a href="#">Forgot Password?</a>
-    </div>
+      <h1>Welcome to EGEREATS!</h1>
 
+      <h2>Login</h2>
 
-<!-- ---sign up section  -->
-    <h2>Sign Up</h2>
-    <form id="signupForm">
-      <label for="signupUsername">Username:</label><br>
-      <input type="text" id="signupUsername" name="signupUsername"><br>
-      <label for="signupPassword">Password:</label><br>
-      <input type="password" id="signupPassword" name="signupPassword"><br><br>
-      <input type="submit" value="Sign Up">
-    </form>
-  </div>
- 
-
-
-  <div id="forgotPasswordModal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <h2>Forgot Password</h2>
-      <p>Enter your email address to reset your password:</p>
-      <form id="forgotPasswordForm">
-        <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email"><br><br>
-        <input type="submit" value="Reset Password">
-      </form>
-    </div>
-  </div>
+      <form id="loginForm">
+        <label for="loginUsername">Username:</label><br>
+         <input type="text" id="loginUsername" name="loginUsername"><br>
+         <label for="loginPassword">Password:</label><br>
+         <input type="password" id="loginPassword" name="loginPassword"><br><br>
+         <input type="submit" value="Login">
+       </form>
+       <div class="forgot-password">
+         <a href="#">Forgot Password?</a>
+       </div>
+   
+   
+   <!-- ---sign up section  -->
+       <h2>Sign Up</h2>
+       <form id="signupForm">
+         <label for="signupUsername">Username:</label><br>
+         <input type="text" id="signupUsername" name="signupUsername"><br>
+         <label for="signupPassword">Password:</label><br>
+         <input type="password" id="signupPassword" name="signupPassword"><br><br>
+         <input type="submit" value="Sign Up">
+       </form>
+     </div>
+    
+   
+   
+     <div id="forgotPasswordModal" class="modal">
+       <div class="modal-content">
+         <span class="close">&times;</span>
+         <h2>Forgot Password</h2>
+         <p>Enter your email address to reset your password:</p>
+         <form id="forgotPasswordForm">
+           <label for="email">Email:</label><br>
+           <input type="text" id="email" name="email"><br><br>
+           <input type="submit" value="Reset Password">
+         </form>
+       </div>
+     </div>
+  </section>
   
 
-    <!-------food  ordering section ------ -->
-    <div class="container">
-        <h1>Our Products</h1>
-        <p>place your order now and  enjoy at  convenient prices</p>
-        <div class="food-list" id="foodList">
-           
-            <div class="food-item">
-                <img src="/imag/pexels-brett-jordan-825661.jpg" alt="Placeholder">
-                <div class="food-details">
-                    <h2>Pizza</h2>
-                    <div class="price">$10</div>
-                    <div class="rating">Rating: 4.5</div>
-                    <button class="add-to-cart">Add to Cart</button>
-                </div>
+  <!-------food  ordering section ------ -->
+  <div class="contain">
+    <h1>Our Products</h1>
+    <p>place your order now and  enjoy at  convenient prices</p>
+    <div class="food-list" id="foodList">
+    
+        <div class="food-item">
+            <img src="/imag/pexels-brett-jordan-825661.jpg" alt="Placeholder">
+            <div class="food-details">
+                <h2>Pizza</h2>
+                <div class="price">$10</div>
+                <div class="rating">Rating: 4.5</div>
+                <button class="add-to-cart">Add to Cart</button>
             </div>
-
-            <div class="food-item">
-                <img src="/imag/pexels-trista-chen-723198.jpg" alt="Placeholder">
-                <div class="food-details">
-                    <h2>Rice</h2>
-                    <div class="price">$5</div>
-                    <div class="rating">Rating: 4.0</div>
-                    <button class="add-to-cart">Add to Cart</button>
-                </div>
-            </div>
-
-            <div class="food-item">
-                <img src="/imag/pexels-ella-olsson-3026801.jpg" alt="Placeholder">
-                <div class="food-details">
-                    <h2>Yoghurt </h2>
-                    <div class="price">$3</div>
-                    <div class="rating">Rating: 4.2</div>
-                    <button class="add-to-cart">Add to Cart</button>
-                </div>
-            </div>
-            <div class="food-item">
-                <img src="/imag/pexels-chevanon-photography-302899.jpg" alt="Placeholder">
-                <div class="food-details">
-                    <h2>Coffee </h2>
-                    <div class="price">$3</div>
-                    <div class="rating">Rating: 4.2</div>
-                    <button class="add-to-cart">Add to Cart</button>
-                </div>
-            </div>
-           
         </div>
-    </div>
 
-            <!--================================= options to select payment methods and redirect to them=========================== -->
+        <div class="food-item">
+            <img src="/imag/pexels-trista-chen-723198.jpg" alt="Placeholder">
+            <div class="food-details">
+                <h2>Rice</h2>
+                <div class="price">$5</div>
+                <div class="rating">Rating: 4.0</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="food-item">
+            <img src="/imag/pexels-ella-olsson-3026801.jpg" alt="Placeholder">
+            <div class="food-details">
+                <h2>Yoghurt </h2>
+                <div class="price">$3</div>
+                <div class="rating">Rating: 4.2</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="food-item">
+            <img src="/imag/pexels-chevanon-photography-302899.jpg" alt="Placeholder">
+            <div class="food-details">
+                <h2>Coffee </h2>
+                <div class="price">$3</div>
+                <div class="rating">Rating: 4.2</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
        
-        
+    </div>
+</div>
+
+
+<!--================================= options to select payment methods and redirect to them=========================== -->
+       
         <!--========================= end of payment options============================== -->
    
     <div class="featuresContainer">
