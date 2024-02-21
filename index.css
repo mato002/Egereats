@@ -567,50 +567,6 @@ button {
 }
 
 
-/* ====================================payment options section=============================== */
-#paymentOptionsContainer{
-    background-color: #bff5c0;
-    display:flex;
-    justify-content: flex-end;
-    align-items: center;
-    height:25vh;
-    width:100vw;
-    margin-top:11%;
 
-}
-.paymentOption{
-    background-color: #fff; 
-    margin:10px;
-    width:40%;
-    height:80%;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 6%;
-
-
-  }
-.paymentOption:hover{
-    background-color: rgba(46, 54, 51, 0.151);
-    transition: all .65s ease;
-    color:white;
-}
-  .fa-brands.fa-paypal{
-    font-size: 450%;
-  }
-  .fa-brands.fa-cc-visa{
-   font-size: 450%;
-
-  }
-  .fa-solid.fa-mobile{
-    font-size: 450%;
-  }
-  
-/* ==========================orders section======================================== */
-
- #ordersContainer {
-    margin-top: 5%;
- }
 /* -------search bar----------- */
 
