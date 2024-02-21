@@ -8,16 +8,37 @@
     <script src="https://kit.fontawesome.com/9e357f2cb3.js" crossorigin="anonymous"></script>
 </head>
 <body class="boy">
-    <div class="featuresContainer">
-
-
-
-      
-        
-        <h3>Pay with:</h3>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="features.css" />
+      <title>features</title>
+      <script
+        src="https://kit.fontawesome.com/af63ad448b.js"
+        crossorigin="anonymous"
+      ></script>
+    </head>
+    <body>
+      <div class="featuresContainer">
+        <div class="featuresContainer menu">
+          <a href="#paymentOptionsContainer">
+            <div class="paymentOptionsMenuItem">
+              <h4>payment options</h4>
+            </div>
+          </a>
+          <a href="#ordersContainer">
+            <div class="orderMenuItem">
+              <h4>orders</h4>
+            </div>
+          </a>
+        </div>
   
-        <div class="paymentOptionsContainer">
+        <!--================================= options to select payment methods and redirect to them=========================== -->
   
+        <div id="paymentOptionsContainer">
           <!-- paypal -->
   
           <div class="paymentOption paypalOPtion">
@@ -49,6 +70,24 @@
             <a href="#">
               <p>use other means</p>
             </a>
+          </div>
+        </div>
+  
+        <!--========================= end of payment options============================== -->
+        <div id="ordersContainer">
+          <h3>Current orders</h3>
+          <div class="currentOrders">
+            <h4>Order id:</h4>
+            <h4>Date:</h4>
+            <h4>Items:</h4>
+            <h4>Status:</h4>
+          </div>
+          <h3>Past Orders</h3>
+          <div class="pastOrders">
+            <h4>Order id:</h4>
+            <h4>Date:</h4>
+            <h4>Items:</h4>
+            <h4>Status:</h4>
           </div>
         </div>
       </div>
