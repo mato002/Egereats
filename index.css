@@ -503,5 +503,35 @@ button {
   }
 }
 =======
+/*.........delivery information section.......*/
+/* Style table header */
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Highlight alternate rows for better readability */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Style the first column, e.g., for item names */
+td:first-child {
+  font-weight: bold;
+}
+
+/* Apply some padding to the last column */
+td:last-child {
+  padding-right: 20px;
+}
+
+/* Add some hover effect on rows */
+tr:hover {
+  background-color: #e6f7ff;
 >>>>>>> 19fb65aa28740b58e131ad26572d26c66f204df8
 >>>>>>> 2566e9f91196f2322536e07b92581b07452792da
