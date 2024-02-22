@@ -4,56 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="product.css">
     <script src="https://kit.fontawesome.com/9e357f2cb3.js" crossorigin="anonymous"></script>
 </head>
 <body>
       <!-------food  ordering section ------ -->
-  <div class="contain">
-    <h1>Our Products</h1>
-    <p>place your order now and  enjoy at  convenient prices</p>
-    <div class="food-list" id="foodList">
+      <div class="product">
+        <header>
+            <div class="tittle">PRODUCT LIST</div>
+            <div class="icon-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>0</span>
+
+     
+            </div>
+        </header>
+
+
+        <div class="listProduct">
+            <div class="item">
+                <img src="/imag/pexels-brett-jordan-825661.jpg" alt="">
+                <h2>Pizza  </h2>
+                <div class="price">$200</div>
+                <button class="addCart">Add To Cart</button>
+            </div>
+        </div>
+      </div>
+
+      <div class="carTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart">
+            <div class="item">
+                <div class="image">
+                    <img src="/imag/pexels-brett-jordan-825661.jpg" >
+                </div>
+                <div class="name">NAME</div>
+                <div class="totalPrice">$200</div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                    <span>1</span>
+                    <span class="plus">></span>
     
-        <div class="food-item">
-            <img src="/imag/pexels-brett-jordan-825661.jpg" alt="Placeholder">
-            <div class="food-details">
-                <h2>Pizza</h2>
-                <div class="price">$10</div>
-                <div class="rating">Rating: 4.5</div>
-                <button class="add-to-cart">Add to Cart</button>
+                </div>
+    
             </div>
-        </div>
 
-        <div class="food-item">
-            <img src="/imag/pexels-trista-chen-723198.jpg" alt="Placeholder">
-            <div class="food-details">
-                <h2>Rice</h2>
-                <div class="price">$5</div>
-                <div class="rating">Rating: 4.0</div>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
         </div>
-
-        <div class="food-item">
-            <img src="/imag/pexels-ella-olsson-3026801.jpg" alt="Placeholder">
-            <div class="food-details">
-                <h2>Yoghurt </h2>
-                <div class="price">$3</div>
-                <div class="rating">Rating: 4.2</div>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
-        </div>
-        <div class="food-item">
-            <img src="/imag/pexels-chevanon-photography-302899.jpg" alt="Placeholder">
-            <div class="food-details">
-                <h2>Coffee </h2>
-                <div class="price">$3</div>
-                <div class="rating">Rating: 4.2</div>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
-        </div>
-       
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut">CHECKOUT</button>
+      </div>
     </div>
-</div>
+
 </body>
 </html>
