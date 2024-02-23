@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "rice",
+        "price" : "200",
+        "imag" : "/imag/pexels-robin-stickel-70497.jpg"   
+    },
+
+    {
+        "id": 3,
+        "name": "rice",
+        "price" : "200",
+        "imag" : "/imag/pexels-michael-burrows-7129400.jpg"   
+    },
+
+    {
+        "id": 1,
+        "name": "rice",
+        "price" : "200",
+        "imag" : "/imag/pexels-ella-olsson-3026801.jpg"   
+    },
+    {
+        "id": 1,
+        "name": "rice",
+        "price" : "200",
+        "imag" : "/imag/pexels-ella-olsson-3026801.jpg"   
+    },
+    {
+        "id": 1,
+        "name": "rice",
+        "price" : "200",
+        "imag" : "/imag/pexels-ella-olsson-3026801.jpg"   
+    },
+    {
+        "id": 1,
+        "name": "rice",
+        "price" : "200",
+        "imag" : "/imag/pexels-ella-olsson-3026801.jpg"   
+    },
+    {
+        "id": 1,
+        "name": "rice",
+        "price" : "200",
+        "imag" : "/imag/pexels-ella-olsson-3026801.jpg"   
+    },
+    {
+        "id": 1,
+        "name": "rice",
+        "price" : "200",
+        "imag" : "/imag/pexels-ella-olsson-3026801.jpg"   
+    },
+    {
+        "id": 1,
+        "name": "rice",
+        "price" : "200",
+        "imag" : "/imag/pexels-ella-olsson-3026801.jpg"   
+    }
+
+
+
+
+
+
+]
