@@ -12,12 +12,15 @@
         overflow: scroll;
     }
 
-.product{
+.container{
     width: 900px;
     max-width: 90vw;
     margin: auto;
     padding-top: 10px;
+    transition:transform .5s ;
 }
+
+
 
 
 header{
@@ -103,11 +106,13 @@ header .icon-cart{
     top: 0;
     right: 0;
     bottom: 0;
-    inset: 0 0 0 auto;
+    inset: 0 -400px 0 auto;
     display: block;
     border: none;
     position:fixed ;
     grid-template-columns: 70px 1fr 70px;
+    transition: .5s;
+    
 }
  
 
@@ -175,7 +180,7 @@ header .icon-cart{
 
 }
 
-.listCart .quantity span:nth-child(even){
+.listCart .item :nth-child(even){
     background-color: #eee1;
 
 
@@ -183,10 +188,24 @@ header .icon-cart{
 }
 
 .listCart .quantity span:nth-child(2){
-    background-color: #eee1;
+    background-color: transparent;
     color: #eee;
 
 }
+.listCart {
+    overflow: auto;
+}
 .btn{
     display: inline-flex;
+}
+
+body .showCart .container{
+    transform: translateX(-250px);
+}
+
+body .showCart .cartTab{
+    inset: 0 0 0 auto;
+}
+.listCart::-webkit-scrollbar{
+    width: 0;
 }
