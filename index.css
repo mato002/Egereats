@@ -634,3 +634,61 @@ button {
  }
 /* -------search bar----------- */
 
+
+
+
+/* --------services--------- */
+#services{
+  padding: 30px 0;
+
+}
+
+.services-list{
+  display: flex;
+  justify-content: space-between;
+  grid-gap:40px ;
+  margin-top: 50px;
+
+}
+
+
+.services-list div {
+  background: #262626;
+  padding: 40px;
+  font-size: 13p ;
+  font-weight: 300;
+  border-radius: 10px;
+  transition:background 0.5s,transform 0.5s ;
+  
+
+}
+
+.services-list div i{
+font-size: 50px;  
+margin-bottom: 30px;
+}
+
+.services-list div h2{
+  font-size: 20px;
+  color: #fff;
+  background: #262626;
+
+
+
+}
+.services-list div p{
+  color: whitesmoke;
+}
+
+.services-list div a{
+  color: gainsboro;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.services-list div:hover{
+  background: rgb(64, 40, 8);
+  transform: translateY(-10px);
+}
