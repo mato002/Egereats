@@ -646,7 +646,7 @@ button {
 .services-list{
   display: flex;
   justify-content: space-between;
-  grid-gap:40px ;
+  grid-gap:50px ;
   margin-top: 50px;
 
 }
@@ -657,7 +657,7 @@ button {
   padding: 40px;
   font-size: 13p ;
   font-weight: 300;
-  border-radius: 10px;
+  border-radius: 20px;
   transition:background 0.5s,transform 0.5s ;
   
 
@@ -666,29 +666,38 @@ button {
 .services-list div i{
 font-size: 50px;  
 margin-bottom: 30px;
+
 }
 
 .services-list div h2{
   font-size: 20px;
   color: #fff;
-  background: #262626;
+  background: #aecbb7;
+  border-radius: 20px;
+  align-items: center;
 
 
 
 }
 .services-list div p{
-  color: whitesmoke;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #888;
 }
 
 .services-list div a{
-  color: gainsboro;
+  color: rgb(185, 9, 9);
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
   margin-top: 20px;
+  border-radius: 20px;
+  text-align: center;
+
 }
 
+
 .services-list div:hover{
-  background: rgb(64, 40, 8);
+  background-image: url(/imag/);
   transform: translateY(-10px);
 }
