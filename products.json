@@ -1,59 +1,95 @@
 [
     {
         "id": 1,
-        "name": "rice",
-        "price" : "200",
-        "img" : "/imag/pexels-robin-stickel-70497.jpg"   
+        "name": "Coffee",
+        "price" : "Kes 20",
+        "img" : "imag/gallery_9.webp"
     },
 
     {
         "id": 3,
-        "name": "rice",
-        "price" : "200",
-        "img" : "/imag/pexels-michael-burrows-7129400.jpg"   
+        "name": "Mukimo",
+        "price" : "Kes 60",
+        "img" : "imag/gallery_25.jpg"   
     },
 
     {
         "id": 1,
-        "name": "rice",
-        "price" : "200",
-        "img" : "/imag/pexels-ella-olsson-3026801.jpg"   
+        "name": "Ugali Plain",
+        "price" : "Kes 50",
+        "img" : "imag/gallery_16.jpg"   
     },
     {
         "id": 1,
-        "name": "rice",
-        "price" : "200",
-        "img" : "/imag/pexels-ella-olsson-3026801.jpg"   
+        "name": "Rice",
+        "price" : "Kes 40",
+        "img" : "imag/menu_5.webp"   
     },
     {
         "id": 1,
-        "name": "rice",
-        "price" : "200",
-        "img" : "/imag/pexels-ella-olsson-3026801.jpg"   
+        "name": "Sausage",
+        "price" : "Kes 35",
+        "img" : "imag/menu_15.jpg"   
     },
     {
         "id": 1,
-        "name": "rice",
-        "price" : "200",
-        "img" : "/imag/pexels-ella-olsson-3026801.jpg"   
+        "name": "Ugali Bamba",
+        "price" : "Kes 100",
+        "img" : "imag/gallery_18.jpg"   
     },
     {
         "id": 1,
-        "name": "rice",
-        "price" : "200",
-        "img" : "/imag/pexels-ella-olsson-3026801.jpg"   
+        "name": "Chapati",
+        "price" : "Kes 20",
+        "img" : "imag/gallery_26.jpg"   
     },
     {
         "id": 1,
-        "name": "rice",
-        "price" : "200",
-        "img" : "/imag/pexels-ella-olsson-3026801.jpg"   
+        "name": "Black Tea",
+        "price" : "Kes 20",
+        "img" : "imag/gallery_49.jpg"   
     },
     {
         "id": 1,
-        "name": "rice",
-        "price" : "200",
-        "img" : "/imag/pexels-ella-olsson-3026801.jpg"   
+        "name": "Porridge",
+        "price" : "Kes 20",
+        "img" : "imag/menu_2.jpg"   
+    },
+    {
+        "id": 1,
+        "name": "Ugali Omena",
+        "price" : "Kes 70",
+        "img" : "imag/gallery_32.jpg"   
+    },
+    {
+        "id": 1,
+        "name": "Ugali Beans",
+        "price" : "Kes 60",
+        "img" : "imag/menu_24.jpg"   
+    },
+    {
+        "id": 1,
+        "name": "Potatoes Beans",
+        "price" : "Kes 70",
+        "img" : "imag/gallery_8.jpg"   
+    },
+    {
+        "id": 1,
+        "name": "Chips",
+        "price" : "Kes 100",
+        "img" : "imag/gallery_28.jpg"   
+    },
+    {
+        "id": 1,
+        "name": "Smoothie",
+        "price" : "Kes 90",
+        "img" : "imag/gallery_6.jpg"   
+    },
+    {
+        "id": 1,
+        "name": "Cake Piece",
+        "price" : "Kes 70",
+        "img" : "imag/gallery_20.jpg"   
     }
 
 
