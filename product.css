@@ -107,7 +107,7 @@ header .icon-cart{
     top: 0;
     right: 0;
     bottom: 0;
-    inset: 0 -400px 0 auto;
+    inset: 0 px 0 auto;
     display: block;
     border: none;
     position:fixed ;
