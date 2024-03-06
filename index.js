@@ -202,8 +202,35 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  
-  
+
+// function to toggle visibility of payments
+function togglePaypalVisibility(){
+    var content=document.getElementById('setUpPaypal');
+    if(content.style.display==="none"){
+        content.style.display="block";
+    }
+    else{
+            content.style.display="none";
+        }
+    }
+
+    function toggleCardVisibility(){
+        var content=document.getElementById('setUpCard');
+        if(content.style.display==="none"){
+            content.style.display="block";
+        }
+        else{
+                content.style.display="none";
+            }
+        }
+
+
+    //   redirect to homepage
+
+        function redirectToHomepage() {
+            // Redirect to the homepage URL
+            window.location.href = "http://127.0.0.1:5500/index.html"; 
+          }
 
 
   // -------search bar  
