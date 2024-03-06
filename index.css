@@ -702,3 +702,25 @@ margin-bottom: 30px;
   background-image: url(/imag/);
   transform: translateY(-10px);
 }
+
+
+/* ====================================OUR BLOG============================================ */
+
+.blog_container{
+  border:black solid 2px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media screen and (min-width:768px){
+  .blog_container{
+    flex-wrap: nowrap;
+  }
+}
+.blog{
+  border:yellow solid 2px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
