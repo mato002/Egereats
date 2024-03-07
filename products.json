@@ -17,7 +17,7 @@
         "id": 1,
         "name": "Ugali Plain",
         "price" : "Kes 50",
-        "img" : "imag/gallery_16.jpg"   
+        "img" : "imag/ugali.jpg"   
     },
     {
         "id": 1,
@@ -35,7 +35,7 @@
         "id": 1,
         "name": "Ugali Bamba",
         "price" : "Kes 100",
-        "img" : "imag/gallery_18.jpg"   
+        "img" : "imag/ugali bamba.jpg"   
     },
     {
         "id": 1,
@@ -59,13 +59,13 @@
         "id": 1,
         "name": "Ugali Omena",
         "price" : "Kes 70",
-        "img" : "imag/gallery_32.jpg"   
+        "img" : "imag/ugali omena.jpg"   
     },
     {
         "id": 1,
         "name": "Ugali Beans",
         "price" : "Kes 60",
-        "img" : "imag/menu_24.jpg"   
+        "img" : "imag/ugali beans.jpg"   
     },
     {
         "id": 1,
